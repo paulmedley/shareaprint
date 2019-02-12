@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
-  <h1>Posts</h1>
+  <h1 class="title">Posts</h1>
   <ul>
     @foreach ($posts as $post)
       <li>

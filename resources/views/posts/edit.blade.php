@@ -30,6 +30,7 @@
 
     </div>
   </div>
+  @include('errors')
 
 </form>
 

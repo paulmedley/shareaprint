@@ -32,7 +32,7 @@ class PostsController extends Controller
     public function update(Post $post)
     {
 
-      $post->update = request(['title', 'description']);
+      $post->update(request(['title', 'description']));
 
       return redirect('/posts');
     }

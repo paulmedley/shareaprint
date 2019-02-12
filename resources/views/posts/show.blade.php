@@ -2,10 +2,10 @@
 @section('content')
   <h1 class="title">{{$post->title}}</h1>
 
-  <div class="content">
+  <p>
     {{$post->description}}
-  </div>
-
+  </p>
+  
   <p style="margin-bottom:1em;">
     <a href="/posts/{{$post->id}}/edit">Edit</a>
   </p>
